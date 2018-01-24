@@ -95,6 +95,9 @@
                     order: {},
                     labels: {},
                     onchange: function() {
+                    },
+                    onClickLock:function(){
+                        console.log("not changed");
                     }
                 }, options);
 
@@ -296,10 +299,11 @@
             }
 
             function _getCurrentButton(property){
-                return '<button class="button" data-item="'+property+'">unlock</button>';
+                return '<button class="button locker" data-item="'+property+'">unlock</button>';
             }
 
             function _getControllerHtml() {
+                console.log("rendering");
                 var sliders = [],
                     color_picker_html = '';
 
@@ -750,6 +754,8 @@
                         return false;
                     });
                 }
+                $(".locker").on("click", options.onClickLock);
+
             }
 
             function _parseCustomSwatches() {

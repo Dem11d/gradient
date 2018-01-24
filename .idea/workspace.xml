@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54ad29bb-efd5-428f-a821-4258913f1b17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.css" afterPath="$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.js" afterPath="$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/css-gradient-generator-master/src/css-gradient-generator.js" afterPath="$PROJECT_DIR$/vendor/css-gradient-generator-master/src/css-gradient-generator.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,35 +35,29 @@
       </file>
       <file leaf-file-name="LICENSE.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LICENSE.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.colorpickersliders.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap.colorpickersliders.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="298" column="78" lean-forward="false" selection-start-line="298" selection-start-column="78" selection-end-line="298" selection-end-column="78" />
+            <state relative-caret-position="514">
+              <caret line="758" column="13" lean-forward="true" selection-start-line="758" selection-start-column="13" selection-end-line="758" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -72,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css-gradient-generator.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="css-gradient-generator.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/src/css-gradient-generator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="906" column="56" lean-forward="false" selection-start-line="906" selection-start-column="50" selection-end-line="906" selection-end-column="56" />
+            <state relative-caret-position="233">
+              <caret line="2216" column="29" lean-forward="false" selection-start-line="2216" selection-start-column="29" selection-end-line="2216" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -85,8 +78,8 @@
       <file leaf-file-name="bootstrap.colorpickersliders.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="153" column="26" lean-forward="true" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+            <state relative-caret-position="2601">
+              <caret line="153" column="26" lean-forward="false" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -95,7 +88,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="7990">
               <caret line="470" column="51" lean-forward="false" selection-start-line="470" selection-start-column="51" selection-end-line="470" selection-end-column="51" />
               <folding />
             </state>
@@ -117,10 +110,13 @@
       <find>rgb</find>
       <find>onchange</find>
       <find>&lt;</find>
-      <find>css-gradient-editor-stop-point-color</find>
       <find>active</find>
       <find>click</find>
       <find>85</find>
+      <find>change</find>
+      <find>css-gradient-editor-stop-point-color</find>
+      <find>onClickLock</find>
+      <find>bindE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,20 +130,28 @@
         <option value="$PROJECT_DIR$/vendor/css-gradient-generator-master/index.html" />
         <option value="$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.css" />
         <option value="$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.js" />
+        <option value="$PROJECT_DIR$/vendor/css-gradient-generator-master/src/css-gradient-generator.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1934" />
-    <option name="y" value="156" />
-    <option name="width" value="1456" />
-    <option name="height" value="886" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -217,6 +221,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,25 +248,26 @@
       <workItem from="1516704385627" duration="7483000" />
       <workItem from="1516789035838" duration="90000" />
       <workItem from="1516789590798" duration="9091000" />
+      <workItem from="1516816138184" duration="1623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16664000" />
+    <option name="totallyTimeSpent" value="18287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="166" width="1456" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18095239" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18043478" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -293,27 +299,65 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/src/css-gradient-generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15402">
+          <caret line="906" column="56" lean-forward="false" selection-start-line="906" selection-start-column="50" selection-end-line="906" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2601">
+          <caret line="153" column="26" lean-forward="true" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7990">
+          <caret line="470" column="51" lean-forward="false" selection-start-line="470" selection-start-column="51" selection-end-line="470" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5066">
+          <caret line="298" column="78" lean-forward="false" selection-start-line="298" selection-start-column="78" selection-end-line="298" selection-end-column="78" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acf-css-gradient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.md" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/acf-css-gradient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -354,6 +398,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acf-css-gradients/vendor/css-gradient-generator-master/src/example.js" />
     <entry file="file://$PROJECT_DIR$/acf-css-gradients/vendor/css-gradient-generator-master/src/css-gradient-generator.js" />
+    <entry file="file://$PROJECT_DIR$/LICENSE.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7990">
+          <caret line="470" column="51" lean-forward="false" selection-start-line="470" selection-start-column="51" selection-end-line="470" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2601">
+          <caret line="153" column="26" lean-forward="false" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/acf-css-gradient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -362,71 +438,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/index.html">
+    <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="470" column="51" lean-forward="false" selection-start-line="470" selection-start-column="51" selection-end-line="470" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="514">
+          <caret line="758" column="13" lean-forward="true" selection-start-line="758" selection-start-column="13" selection-end-line="758" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/src/css-gradient-generator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="906" column="56" lean-forward="false" selection-start-line="906" selection-start-column="50" selection-end-line="906" selection-end-column="56" />
+        <state relative-caret-position="233">
+          <caret line="2216" column="29" lean-forward="false" selection-start-line="2216" selection-start-column="29" selection-end-line="2216" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="153" column="26" lean-forward="true" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/css-gradient-generator-master/resources/bootstrap-colorpickersliders/bootstrap.colorpickersliders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="298" column="78" lean-forward="false" selection-start-line="298" selection-start-column="78" selection-end-line="298" selection-end-column="78" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

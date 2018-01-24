@@ -2154,6 +2154,7 @@ var CSSGradientEditor = function(container, options) {
     for (var i = 0; i < colorStops.length; i++) {
       var el = colorStops[i];
       var row = $('<div class="css-gradient-editor-stoppointdata clearfix"></div>');
+      console.log(el);
 
       row.appendTo(elements.colorstopslist);
       $('<button type="button" class="btn btn-sm pull-right css-gradient-editor-stop-point-delete"><span class="pngicon-remove2"></span></button><input class="css-gradient-editor-stop-point-color input-sm" type="text" value="' + getRenderColor(el) + '"> <input class="css-gradient-editor-stop-point-position input-sm" type="text" value="' + el.position + '">').appendTo(row);
@@ -2210,7 +2211,11 @@ var CSSGradientEditor = function(container, options) {
 
         renderColorStopMarkers();
         renderGradient();
-      }
+      },
+        onClickLock:function(event){
+          console.log("lock is clicked");
+          console.log(event);
+        }
     });
 
     $('input', elements.colorstopslist).focus(function() {
