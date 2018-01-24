@@ -11,7 +11,8 @@
 
 .cp-container .cp-slider,
 .cp-container .cp-preview {
-    width: auto;
+    display: inline-block;
+    width: 75%;
     height: 26px;
     border: 1px solid #dadada;
     margin: 0 4px;
@@ -142,3 +143,15 @@
     width: 27px;
     height: 27px;
 }
+.button {
+    margin: 0 auto;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 3px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-red {background-color: #f44336;} /* Red */
