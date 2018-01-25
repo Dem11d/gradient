@@ -98,6 +98,9 @@
                     },
                     onClickLock:function(){
                         console.log("not changed");
+                    },
+                    isLocked:function(property){
+                      return false;
                     }
                 }, options);
 
@@ -299,7 +302,10 @@
             }
 
             function _getCurrentButton(property){
-                return '<button class="button locker" data-item="'+property+'">unlock</button>';
+              var isLocked = options.isLocked(property);
+              console.log(isLocked);
+              var content = isLocked?"unlock":"lock";
+              return '<button class="button picker-locker" locked="'+isLocked+'" data-item="'+property+'">'+content+'</button>';
             }
 
             function _getControllerHtml() {
@@ -754,7 +760,17 @@
                         return false;
                     });
                 }
-                $(".locker").on("click", options.onClickLock);
+                $(".picker-locker").on("click", function(event){
+                  var element = event.currentTarget;
+                  console.log(element);
+                  var locked = element.getAttribute("locked")==="true";
+                  console.log(locked);
+                  element.setAttribute("locked",!locked);
+                  var content = locked?"lock":"unlock";
+                  element.innerHTML = content;
+                  options.onClickLock(event);
+
+                });
 
             }
 
@@ -799,7 +815,6 @@
                     elements.swatches.html("");
                     for (var i = 0; i < swatches.length; i++) {
                         var color = tinycolor(swatches[i]);
-
                         if (color.format) {
                             var span = $('<span></span>').css("background-color", color.toRgbString());
                             var button = $('<div class="btn btn-default cp-swatch"></div>');

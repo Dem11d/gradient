@@ -2214,8 +2214,12 @@ var CSSGradientEditor = function(container, options) {
       },
         onClickLock:function(event){
           console.log("lock is clicked");
-          console.log(event);
-        }
+          // console.log(event);
+        },
+      isLocked:function(property){
+          console.log(el.index, property,"is locked");
+          return false;
+      }
     });
 
     $('input', elements.colorstopslist).focus(function() {
